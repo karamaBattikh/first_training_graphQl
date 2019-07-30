@@ -1,0 +1,25 @@
+{
+  "name": "project_training_graphQl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/karamaBattikh/project_training_graphQl.git",
+  "author": "karama battikh <battikh.karama@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.4.2",
+    "loader": "^2.1.1",
+    "mongoose": "^5.6.7",
+    "nodemon": "^1.19.1",
+    "passport": "^0.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node -- server.js"
+  }
+}
